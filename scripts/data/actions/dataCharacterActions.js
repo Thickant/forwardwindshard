@@ -23,7 +23,7 @@ define([''], function () {
           return entity.inRange(e, 2, true);
         });
       },
-      data: [['move', 'FORWARD', 0], ['setAnim', 'attack'], ['wait', 4], ['advanceFrame'], ['performHit'], ['repeatPhase', 2, 3], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 4, function (game, entity) {
+      data: [['move', 'FORWARD', 0], ['setAnim', 'attack'], ['wait', 8], ['advanceFrame'], ['performHit'], ['repeatPhase', 2, 3], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 4, function (game, entity) {
         return !entity.lastEnemyHit;
       }], ['repeatPhase', 8, 10], ['conditionalWait', 3, function (game, entity) {
         return !entity.lastEnemyHit;
