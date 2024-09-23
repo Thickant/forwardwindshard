@@ -15,7 +15,7 @@ define([''], function () {
     tooltip: '4% LEECH. but lose 2% REGEN'
   }, {
     icon: 34,
-    stats: [['bsh', 40]],
+    stats: [['bsh', 50]],
     multis: [['arm', 1.10]],
     tooltip: '40% chance to perform\nSHIELD Strike:\nAdds 30% of DEF to ATK\nwhen calculating damage.\nGives 10% more DEF'
   }, {
@@ -24,28 +24,28 @@ define([''], function () {
     tooltip: '5% BURN.'
   }, {
     icon: 36,
-    multis: [['dmg', 1.12]],
-    tooltip: '12% more ATK.'
+    multis: [['dmg', 1.10]],
+    tooltip: '10% more ATK.'
   }, {
     icon: 37,
     stats: [['grd', 1]],
-    tooltip: 'Grants GUARD Spell:\nClick on your character to\ngain double DEF for 3 seconds.'
+    tooltip: 'Grants GUARD Spell:\nClick on your character to\ngain 50% DEF for 6 seconds.'
   }, {
     icon: 38,
-    stats: [['hpr', 2]],
-    tooltip: '2% REGEN.'
+    stats: [['hpr', 4]],
+    tooltip: '4% REGEN.'
   }, {
     icon: 39,
-    stats: [['cri', 25]],
-    tooltip: '25% CRIT.'
+    stats: [['cri', 20]],
+    tooltip: '20% CRIT.'
   }, {
     icon: 40,
-    multis: [['arm', 1.20]],
-    tooltip: '20% more DEF.'
+    multis: [['arm', 1.40]], ['dmg', 0.8]],
+    tooltip: '40% more DEF.\nbut 20% less ATK'
   }, {
     icon: 41,
-    multis: [['mhp', 1.3], ['dmg', 0.8]],
-    tooltip: '30% more HP.\n20% less ATK.'
+    multis: [['mhp', 1.3], ['dmg', 0.8]], ['iml', 2]],
+    tooltip: '30% more HP.\n20% less ATK.\n2% BURN'
   }, {
     icon: 42,
     stats: [['cri', 35]],
@@ -54,7 +54,7 @@ define([''], function () {
   }, {
     icon: 43,
     stats: [['frz', 1]],
-    tooltip: 'Grants FREEZE Spell:\nClick on enemy to freeze\nit for 2 seconds.'
+    tooltip: 'Grants FREEZE Spell:\nClick on enemy to freeze\nit for 2.5 seconds.'
   }, // Page 2
   {
     icon: 47,
@@ -66,8 +66,8 @@ define([''], function () {
     tooltip: '5% LEECH.\nCRITICAL and SHIELD Strikes\nleech 60% less.'
   }, {
     icon: 46,
-    stats: [['arr', -2],, ['bsh', 60]],
-    tooltip: '-2 ARROWS.\nAdditional 60% chance to\nperform SHIELD Strike.'
+    stats: [['arr', -2], ['bsh', 50]], ['slm', 10]],
+    tooltip: '-2 ARROWS.\nAdditional 50% chance to\nperform SHIELD Strike.\nCRITICAL and SHIELD Strikes\n leech 10% more'
   }, {
     icon: 44,
     stats: [['abs', 15]],
