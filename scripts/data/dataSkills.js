@@ -66,7 +66,7 @@ define([''], function () {
     tooltip: '5% LEECH.\nCRITICAL and SHIELD Strikes\nleech 60% less.'
   }, {
     icon: 46,
-    stats: [['arr', -2], ['bsh', 50]], ['slm', 10]],
+    stats: [['arr', -2], ['bsh', 50], ['slm', 10]],
     tooltip: '-2 ARROWS.\nAdditional 50% chance to\nperform SHIELD Strike.\nCRITICAL and SHIELD Strikes\n leech 10% more'
   }, {
     icon: 44,
