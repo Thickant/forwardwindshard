@@ -147,7 +147,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
           skill.active = false;
           game.character.skillPoints += 1;
           game.audio.playSfx('select');
-        } else if (unlocked && !skill.active && game.character.skillPoints > 0) {
+        } else if (unlocked && !skill.active && game.character.skillPoints >= 0) {
           skill.active = true;
           game.character.skillPoints -= 1;
           game.audio.playSfx('select');
