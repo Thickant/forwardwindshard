@@ -35,7 +35,7 @@ define([''], function () {
     name: 'iml',
     real: 'BURN',
     percent: true,
-    tooltip: 'Percentage of your max HP\ndealt as damage per second\nto nearby enemies.'
+    tooltip: 'Percentage of your max HP\ndealt as damage per second\nto nearby enemies.\nFor every % of burn you have you gain\n10% more burn range.\nStacks Additively'
   }, {
     name: 'arr',
     real: 'ARROWS',
