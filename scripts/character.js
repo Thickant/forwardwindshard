@@ -156,7 +156,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         var _this4 = this;
 
         if (this.iml) {
-          var distance = 50;
+          var distance = 50 + (this.iml * 5); // Burn distance increases by 5 for each immolation level
           var nearby = game.entities.aliveEnemies().filter(function (e) {
             return Math.abs(e.x - _this4.x) <= distance && Math.abs(e.y - _this4.y) <= distance;
           });
