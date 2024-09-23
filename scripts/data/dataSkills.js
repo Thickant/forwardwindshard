@@ -17,7 +17,7 @@ define([''], function () {
     icon: 34,
     stats: [['bsh', 50]],
     multis: [['arm', 1.10]],
-    tooltip: '50% chance to perform\nSHIELD Strike:\nAdds 30% of DEF to ATK\nwhen calculating damage.\nGives 10% more DEF'
+    tooltip: '50% chance to perform\nSHIELD Strike:\nAdds 30% of DEF to ATK\nwhen calculating damage. \n the attack animation is faster \nGives 10% more DEF'
   }, {
     icon: 35,
     stats: [['iml', 5]],
@@ -37,7 +37,7 @@ define([''], function () {
   }, {
     icon: 39,
     stats: [['cri', 20]],
-    tooltip: '20% CRIT.'
+    tooltip: '20% CRIT. \n the attack animation is faster'
   }, {
     icon: 40,
     multis: [['arm', 1.40], ['dmg', 0.8]],
