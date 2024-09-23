@@ -44,7 +44,7 @@ define([''], function () {
     tooltip: '40% more DEF.\nbut 20% less ATK'
   }, {
     icon: 41,
-    multis: [['mhp', 1.3], ['dmg', 0.8]], ['iml', 2]],
+    multis: [['mhp', 1.3], ['dmg', 0.8], ['iml', 2]],
     tooltip: '30% more HP.\n20% less ATK.\n2% BURN'
   }, {
     icon: 42,
