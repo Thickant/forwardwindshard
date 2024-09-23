@@ -23,7 +23,7 @@ define([''], function () {
           return entity.inRange(e, 2, true);
         });
       },
-      data: [['move', 'FORWARD', 0], ['setAnim', 'attack'], ['wait', 4], ['advanceFrame'], ['performHit'], ['repeatPhase', 2, 3], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 4, function (game, entity) {
+      data: [['move', 'FORWARD', 0], ['setAnim', 'attack'], ['wait', 10], ['advanceFrame'], ['performHit'], ['repeatPhase', 2, 3], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 4, function (game, entity) {
         return !entity.lastEnemyHit;
       }], ['repeatPhase', 8, 10], ['conditionalWait', 3, function (game, entity) {
         return !entity.lastEnemyHit;
@@ -35,7 +35,7 @@ define([''], function () {
           return entity.inRange(e, 2, true);
         }) && entity.bsh && Math.random() <= entity.bsh / 100;
       },
-      data: [['move', 'FORWARD', 0], ['setAnim', 'bash'], ['wait', 4], ['advanceFrame'], ['performHit', {
+      data: [['move', 'FORWARD', 0], ['setAnim', 'bash'], ['wait', 5], ['advanceFrame'], ['performHit', {
         bash: true
       }], ['repeatPhase', 2, 4], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 4, function (game, entity) {
         return !entity.lastEnemyHit;
@@ -49,7 +49,7 @@ define([''], function () {
           return entity.inRange(e, 2, true);
         }) && entity.cri && Math.random() <= entity.cri / 100;
       },
-      data: [['move', 'FORWARD', 0], ['setAnim', 'crit'], ['wait', 4], ['advanceFrame'], ['performHit', {
+      data: [['move', 'FORWARD', 0], ['setAnim', 'crit'], ['wait', 5], ['advanceFrame'], ['performHit', {
         crit: true
       }], ['repeatPhase', 2, 3], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 4, function (game, entity) {
         return !entity.lastEnemyHit;
