@@ -8,7 +8,7 @@ define([''], function () {
   config.startWith = 'title'; //Options: title, quickload, newgame
 
   config.showTips = true;
-  config.cheats = false;
+  config.cheats = true;
   config.loadSfx = true;
   config.loadOst = true;
   config.sfxDefaultVolume = 0.8;
