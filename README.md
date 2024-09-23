@@ -1,1 +1,1 @@
-All of the Forward Winds Code that is currently being thought about being used for modding
+A Modded version of Forward Winds that makes it much much harder
