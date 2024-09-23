@@ -40,7 +40,7 @@ define([''], function () {
     tooltip: '20% CRIT.'
   }, {
     icon: 40,
-    multis: [['arm', 1.40]], ['dmg', 0.8]],
+    multis: [['arm', 1.40], ['dmg', 0.8]],
     tooltip: '40% more DEF.\nbut 20% less ATK'
   }, {
     icon: 41,
