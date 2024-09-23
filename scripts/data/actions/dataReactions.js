@@ -74,10 +74,10 @@ define([''], function () {
         return true;
       },
       data: [['addState', ['guard', {
-        multis: [['arm', 2]]
+        multis: [['arm', 1.5]]
       }]], ['setVariable', 'arrows', {
         "var": 'ARROW_RECOVERY'
-      }], ['wait', 180], ['removeState', 'guard']]
+      }], ['wait', 360], ['removeState', 'guard']]
     },
     freezeState: {
       condition: function condition() {
@@ -85,7 +85,7 @@ define([''], function () {
       },
       data: [['addState', ['freeze', {
         stats: [['ice', 1]]
-      }]], ['wait', 120], ['removeState', 'freeze']]
+      }]], ['wait', 150], ['removeState', 'freeze']]
     },
     //*******************************************************************************************************************
     // ** Arrow Shooting
