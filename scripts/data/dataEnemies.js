@@ -203,6 +203,7 @@ define([''], function () {
       image: 'a5_lord',
       mhp: 3.5,
       arm: 1.2,
+      exp: 2,
       actions: ['run', 'settle', 'uberBash'],
       stageboss: true
     },
