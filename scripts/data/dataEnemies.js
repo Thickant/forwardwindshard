@@ -112,7 +112,7 @@ define([''], function () {
       revive: ['d3', 1],
       range: 100,
       arm: 1.1,
-      dmg: 5
+      dmg: 5,
       actions: ['rockThrow']
     },
     d3: {
