@@ -25,7 +25,8 @@ define([''], function () {
   }, {
     icon: 36,
     multis: [['dmg', 1.10]],
-    tooltip: '10% more ATK.'
+    stats: [['cri', 15]],
+    tooltip: '10% more ATK.\n15% CRIT'
   }, {
     icon: 37,
     stats: [['grd', 1]],
@@ -36,8 +37,8 @@ define([''], function () {
     tooltip: '4% REGEN.'
   }, {
     icon: 39,
-    stats: [['cri', 20]],
-    tooltip: '20% CRIT. \nthe attack animation is faster'
+    stats: [['cri', 25]],
+    tooltip: '25% CRIT. \nthe attack animation is faster'
   }, {
     icon: 40,
     multis: [['arm', 1.40], ['dmg', 0.8]],
@@ -49,9 +50,9 @@ define([''], function () {
     tooltip: '30% more HP.\n20% less ATK.\n2% BURN'
   }, {
     icon: 42,
-    stats: [['cri', 35]],
+    stats: [['cri', 40]],
     multis: [['arm', 0.9], ['mhp', 0.9]],
-    tooltip: '35% CRIT.\n10% less DEF and HP.'
+    tooltip: '40% CRIT.\n10% less DEF and HP.'
   }, {
     icon: 43,
     stats: [['frz', 1]],
