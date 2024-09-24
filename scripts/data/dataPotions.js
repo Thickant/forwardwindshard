@@ -13,7 +13,7 @@ define([''], function () {
   }], [{
     effect: 'customStat',
     params: [{
-      stats: [['mhp', 25]]
+      stats: [['mhp', 25], ['arm', 10]]
     }]
   }], [{
     effect: 'randomStat',
@@ -21,18 +21,18 @@ define([''], function () {
   }], [{
     effect: 'customStat',
     params: [{
-      stats: [['dmg', 15], ['arm', 15]]
+      stats: [['dmg', 20], ['arm', 20]]
     }],
-    tooltip: '+15 ATK/DEF'
+    tooltip: '+20 ATK/DEF'
   }], [{
     effect: 'randomStat',
-    params: ['dmg']
+    params: ['dmg'], ['arm']
   }, {
     effect: 'randomStat',
-    params: ['mhp']
+    params: ['mhp'], ['dmg']
   }, {
     effect: 'randomStat',
-    params: ['arm']
+    params: ['arm'], ['dmg']
   }], [{
     effect: 'experience',
     params: [100],
