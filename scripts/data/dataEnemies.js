@@ -160,7 +160,8 @@ define([''], function () {
       level: 22,
       image: 'a5_peon',
       mhp: 0.8,
-      dmg: 1.4
+      dmg: 1.4,
+      exp: 1.5
     },
     e2: {
       level: 23,
