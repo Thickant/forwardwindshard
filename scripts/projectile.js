@@ -162,7 +162,7 @@ define(['game', 'sat', 'entity', 'dataProjectiles', 'dataActions', 'action'], fu
       key: "horizontalMovement",
       value: function horizontalMovement() {
         var vy = 0;
-        var vx = this.direction * 4;
+        var vx = this.direction * 3;
         return {
           x: vx,
           y: vy,
