@@ -477,7 +477,7 @@ define([''], function () {
       image: 'a9_bloom',
       mhp: 1.2,
       actions: ['idle'],
-      exp: 2,
+      exp: 3,
       onDeath: 'bloomShatter'
     },
     i10: {
