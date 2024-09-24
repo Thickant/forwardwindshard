@@ -26,13 +26,13 @@ define([''], function () {
     tooltip: '+20 ATK/DEF'
   }], [{
     effect: 'randomStat',
-    params: ['dmg', 'mhp'] 
+    params: ['dmg'] 
   }, {
     effect: 'randomStat',
-    params: ['mhp', 'arm'] 
+    params: ['mhp'] 
   }, {
     effect: 'randomStat',
-    params: ['arm', 'dmg'] 
+    params: ['arm'] 
   }], [{
     effect: 'experience',
     params: [100],
