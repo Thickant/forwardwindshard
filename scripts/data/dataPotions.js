@@ -91,7 +91,7 @@ define([''], function () {
   }], [{
     effect: 'customStat',
     params: [{
-      stats: [['hpr', 1]]
+      stats: [['hpr', 1], ['iml', 1] ]
     }],
     icon: 147
   }, {
@@ -106,7 +106,7 @@ define([''], function () {
   }], [{
     effect: 'customStat',
     params: [{
-      stats: [['hpr', 1]]
+      stats: [['hpr', 1], ['iml', 1]]
     }],
     icon: 147
   }, {
@@ -212,7 +212,7 @@ define([''], function () {
     effect: 'experience',
     params: [2000],
     icon: 145,
-    tooltip: '+1200 EXP'
+    tooltip: '+2000 EXP'
   }], [{
     effect: 'randomStat',
     params: []
