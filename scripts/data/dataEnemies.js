@@ -110,8 +110,9 @@ define([''], function () {
       level: 17,
       image: 'a4_sentrythrower',
       revive: ['d3', 1],
-      range: 80,
+      range: 100,
       arm: 1.1,
+      dmg: 5
       actions: ['rockThrow']
     },
     d3: {
