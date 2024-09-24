@@ -38,7 +38,7 @@ define([''], function () {
   }, {
     icon: 39,
     stats: [['cri', 25]],
-    tooltip: '25% CRIT. \nthe attack animation is faster'
+    tooltip: '25% CRIT.'
   }, {
     icon: 40,
     multis: [['arm', 1.40], ['dmg', 0.8]],
