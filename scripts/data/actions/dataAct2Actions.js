@@ -12,7 +12,7 @@ define([''], function () {
       condition: function condition(game, entity) {
         return entity.inRange(game.character, entity.range) && !entity.inRange(game.character);
       },
-      data: [['setDirection', 'TOWARDS_PLAYER'], ['wait', 30], ['setFrame', 'shoot:0'], ['wait', 4], ['advanceFrame'], ['repeatPhase', 3, 3], ['generateProjectile', 'rock'], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 5, function (game, entity) {
+      data: [['setDirection', 'TOWARDS_PLAYER'], ['wait', 30], ['setFrame', 'shoot:0'], ['wait', 40], ['advanceFrame'], ['repeatPhase', 3, 3], ['generateProjectile', 'rock'], ['wait', 4], ['setFrame', 'idle:0'], ['conditionalWait', 5, function (game, entity) {
         return entity.inRange(game.character) && entity.action.duration > 60;
       }], ['repeatPhase', 9, 11]]
     },
