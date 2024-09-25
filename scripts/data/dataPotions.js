@@ -24,31 +24,51 @@ define([''], function () {
       stats: [['dmg', 20], ['arm', 20]]
     }],
     tooltip: '+20 ATK/DEF'
-  }], [{
-  // Potion 1: Random boost to ATK and HP
+}], [{
+  // Formula to calculate stat values based on character level
+  var getValue = function(base, level) {
+    var formula = function(level) {
+      return Math.floor(base * (0.8 * level + 2.2 * Math.pow(level, 1.3) + 0.4 * Math.pow(1.2, level)));
+    };
+
+    var tierLevel = level;
+    var value = formula(tierLevel) - formula(Math.max(tierLevel - 2, 0));
+
+    return Math.ceil(value * (0.75 + Math.random() * 0.5));
+  };
+
+  // Define character level (replace with actual dynamic level in your game)
+  var characterLevel = this.level;
+
+  // Potion 1: Increase HP but decrease ATK, scaled by character level
   effect: 'customStat',
   params: (function() {
+    let mhpValue = getValue(10, characterLevel); // HP increase based on level
+    let dmgValue = getValue(5, characterLevel);  // ATK decrease based on level
     return [{
-      stats: [['dmg', getValue('dmg')], ['mhp', getValue('mhp')]],
-      tooltip: `Boost to ATK and HP.`
+      stats: [['mhp', mhpValue], ['dmg', -dmgValue]],
+      tooltip: `+${mhpValue} HP, -${dmgValue} ATK.`
     }];
   })()
 }, {
-  // Potion 2: Random boost to ATK and DEF
+  // Potion 2: Increase DEF but decrease ATK, scaled by character level
   effect: 'customStat',
   params: (function() {
+    let armValue = getValue(10, characterLevel); // DEF increase based on level
+    let dmgValue = getValue(5, characterLevel);  // ATK decrease based on level
     return [{
-      stats: [['dmg', getValue('dmg')], ['arm', getValue('arm')]],
-      tooltip: `Boost to ATK and DEF.`
+      stats: [['arm', armValue], ['dmg', -dmgValue]],
+      tooltip: `+${armValue} DEF, -${dmgValue} ATK.`
     }];
   })()
 }, {
-  // Potion 3: Random boost to HP and DEF
+  // Potion 3: Increase ATK only, scaled by character level
   effect: 'customStat',
   params: (function() {
+    let dmgValue = getValue(10, characterLevel); // ATK increase based on level
     return [{
-      stats: [['mhp', getValue('mhp')], ['arm', getValue('arm')]],
-      tooltip: `Boost to HP and DEF.`
+      stats: [['dmg', dmgValue]],
+      tooltip: `+${dmgValue} ATK.`
     }];
   })()
 }], [{
