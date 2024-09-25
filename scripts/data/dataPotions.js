@@ -31,8 +31,8 @@ define([''], function () {
     let dmgValue = Math.floor(Math.random() * 7 + 12); // Random ATK value
     let mhpValue = Math.floor(Math.random() * 10 + 20); // Random HP value
     return [{
-      stats: [['dmg', dmgValue], ['mhp', mhpValue]],
-      tooltip: `+${dmgValue} ATK, +${mhpValue} HP.`
+    //  stats: [['dmg', dmgValue], ['mhp', mhpValue]],
+    // tooltip: `+${dmgValue} ATK, +${mhpValue} HP.`
     }];
   })()
 }, {
