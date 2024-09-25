@@ -28,24 +28,34 @@ define([''], function () {
   // Potion 1: Random ATK and HP boost
   effect: 'customStat',
   params: [{
-    stats: [['dmg', Math.floor(Math.random() * 20 + 10)], ['mhp', Math.floor(Math.random() * 50 + 20)]]
+    // Generate random values for dmg and mhp
+    let dmgValue = Math.floor(Math.random() * 15 + 10);
+    let mhpValue = Math.floor(Math.random() * 25 + 10);
+    stats: [['dmg', dmgValue], ['mhp', mhpValue]]
   }],
-  tooltip: 'Random boost to ATK and HP.'
+  tooltip: `+${dmgValue} ATK, +${mhpValue} HP.`
 }, {
   // Potion 2: Random ATK and DEF boost
   effect: 'customStat',
   params: [{
-    stats: [['dmg', Math.floor(Math.random() * 20 + 10)], ['arm', Math.floor(Math.random() * 20 + 10)]]
+    // Generate random values for dmg and arm
+    let dmgValue = Math.floor(Math.random() * 15 + 10);
+    let armValue = Math.floor(Math.random() * 20 + 10);
+    stats: [['dmg', dmgValue], ['arm', armValue]]
   }],
-  tooltip: 'Random boost to ATK and DEF.'
+  tooltip: `+${dmgValue} ATK, +${armValue} DEF.`
 }, {
   // Potion 3: Random HP and DEF boost
   effect: 'customStat',
   params: [{
-    stats: [['mhp', Math.floor(Math.random() * 50 + 20)], ['arm', Math.floor(Math.random() * 20 + 10)]]
+    // Generate random values for mhp and arm
+    let mhpValue = Math.floor(Math.random() * 25 + 10);
+    let armValue = Math.floor(Math.random() * 20 + 10);
+    stats: [['mhp', mhpValue], ['arm', armValue]]
   }],
-  tooltip: 'Random boost to HP and DEF.'
+  tooltip: `+${mhpValue} HP, +${armValue} DEF.`
 }], [{
+
 
     effect: 'experience',
     params: [100],
