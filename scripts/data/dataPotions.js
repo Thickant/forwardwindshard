@@ -24,16 +24,29 @@ define([''], function () {
       stats: [['dmg', 20], ['arm', 20]]
     }],
     tooltip: '+20 ATK/DEF'
-  }], [{
-    effect: 'randomStat',
-    params: ['dmg'] 
-  }, {
-    effect: 'randomStat',
-    params: ['mhp'] 
-  }, {
-    effect: 'randomStat',
-    params: ['arm'] 
-  }], [{
+}], [{
+  // Potion 1: Random ATK and HP boost
+  effect: 'customStat',
+  params: [{
+    stats: [['dmg', Math.floor(Math.random() * 20 + 10)], ['mhp', Math.floor(Math.random() * 50 + 20)]]
+  }],
+  tooltip: 'Random boost to ATK and HP.'
+}, {
+  // Potion 2: Random ATK and DEF boost
+  effect: 'customStat',
+  params: [{
+    stats: [['dmg', Math.floor(Math.random() * 20 + 10)], ['arm', Math.floor(Math.random() * 20 + 10)]]
+  }],
+  tooltip: 'Random boost to ATK and DEF.'
+}, {
+  // Potion 3: Random HP and DEF boost
+  effect: 'customStat',
+  params: [{
+    stats: [['mhp', Math.floor(Math.random() * 50 + 20)], ['arm', Math.floor(Math.random() * 20 + 10)]]
+  }],
+  tooltip: 'Random boost to HP and DEF.'
+}], [{
+
     effect: 'experience',
     params: [100],
     icon: 144,
