@@ -28,8 +28,8 @@ define([''], function () {
   // Potion 1: Random ATK and HP boost
   effect: 'customStat',
   params: (function() {
-    let dmgValue = Math.floor(Math.random() * 10 + 15); // Random ATK value
-    let mhpValue = Math.floor(Math.random() * 10 + 25); // Random HP value
+    let dmgValue = Math.floor(Math.random() * 7 + 12); // Random ATK value
+    let mhpValue = Math.floor(Math.random() * 10 + 15); // Random HP value
     return [{
       stats: [['dmg', dmgValue], ['mhp', mhpValue]],
       tooltip: `+${dmgValue} ATK, +${mhpValue} HP.`
@@ -39,8 +39,8 @@ define([''], function () {
   // Potion 2: Random ATK and DEF boost
   effect: 'customStat',
   params: (function() {
-    let dmgValue = Math.floor(Math.random() * 10 + 15); // Random ATK value
-    let armValue = Math.floor(Math.random() * 10 + 25); // Random DEF value
+    let dmgValue = Math.floor(Math.random() * 7 + 12); // Random ATK value
+    let armValue = Math.floor(Math.random() * 10 + 15); // Random DEF value
     return [{
       stats: [['dmg', dmgValue], ['arm', armValue]],
       tooltip: `+${dmgValue} ATK, +${armValue} DEF.`
@@ -50,8 +50,8 @@ define([''], function () {
   // Potion 3: Random HP and DEF boost
   effect: 'customStat',
   params: (function() {
-    let mhpValue = Math.floor(Math.random() * 10 + 25); // Random HP value
-    let armValue = Math.floor(Math.random() * 10 + 20); // Random DEF value
+    let mhpValue = Math.floor(Math.random() * 10 + 15); // Random HP value
+    let armValue = Math.floor(Math.random() * 10 + 15); // Random DEF value
     return [{
       stats: [['mhp', mhpValue], ['arm', armValue]],
       tooltip: `+${mhpValue} HP, +${armValue} DEF.`
