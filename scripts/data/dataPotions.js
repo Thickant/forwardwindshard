@@ -32,7 +32,7 @@ define([''], function () {
     let mhpValue = Math.floor(Math.random() * 25 + 10); // Random HP value
     return [{
       stats: [['dmg', dmgValue], ['mhp', mhpValue]],
-      tooltip: `+${dmgValue} ATK, +${mhpValue} HP.`
+      tooltip: `+${dmgValue} ATK\n+${mhpValue} HP.`
     }];
   })()
 }, {
@@ -43,7 +43,7 @@ define([''], function () {
     let armValue = Math.floor(Math.random() * 20 + 10); // Random DEF value
     return [{
       stats: [['dmg', dmgValue], ['arm', armValue]],
-      tooltip: `+${dmgValue} ATK, +${armValue} DEF.`
+      tooltip: `+${dmgValue} ATK\n+${armValue} DEF.`
     }];
   })()
 }, {
@@ -54,7 +54,7 @@ define([''], function () {
     let armValue = Math.floor(Math.random() * 20 + 10); // Random DEF value
     return [{
       stats: [['mhp', mhpValue], ['arm', armValue]],
-      tooltip: `+${mhpValue} HP, +${armValue} DEF.`
+      tooltip: `+${mhpValue} HP\n+${armValue} DEF.`
     }];
   })()
 }], [{
