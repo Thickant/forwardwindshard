@@ -99,7 +99,7 @@ define([''], function () {
   // Potion 1: Increase HP but decrease ATK
   effect: 'customStat',
   params: (function() {
-    let mhpValue = Math.floor(Math.random() * 35 + 25); // Random HP increase
+    let mhpValue = Math.floor(Math.random() * 35 + 30); // Random HP increase
     let dmgValue = Math.floor(Math.random() * 15 + 10);  // Random ATK decrease
     return [{
       stats: [['mhp', mhpValue], ['dmg', -dmgValue]],
@@ -110,7 +110,7 @@ define([''], function () {
   // Potion 2: Increase DEF but decrease ATK
   effect: 'customStat',
   params: (function() {
-    let armValue = Math.floor(Math.random() * 35 + 25); // Random DEF increase
+    let armValue = Math.floor(Math.random() * 35 + 30); // Random DEF increase
     let dmgValue = Math.floor(Math.random() * 15 + 10);  // Random ATK decrease
     return [{
       stats: [['arm', armValue], ['dmg', -dmgValue]],
