@@ -95,10 +95,39 @@ define([''], function () {
       stats: [['mhp', 30], ['dmg', 30]]
     }],
     tooltip: '+30 HP/ATK'
-  }], [{
-    effect: 'randomStat',
-    params: []
-  }], [{
+}], [{
+  // Potion 1: Increase HP but decrease ATK
+  effect: 'customStat',
+  params: (function() {
+    let mhpValue = Math.floor(Math.random() * 35 + 25); // Random HP increase
+    let dmgValue = Math.floor(Math.random() * 15 + 10);  // Random ATK decrease
+    return [{
+      stats: [['mhp', mhpValue], ['dmg', -dmgValue]],
+      tooltip: `+${mhpValue} HP, -${dmgValue} ATK.`
+    }];
+  })()
+}, {
+  // Potion 2: Increase DEF but decrease ATK
+  effect: 'customStat',
+  params: (function() {
+    let armValue = Math.floor(Math.random() * 35 + 25); // Random DEF increase
+    let dmgValue = Math.floor(Math.random() * 15 + 10);  // Random ATK decrease
+    return [{
+      stats: [['arm', armValue], ['dmg', -dmgValue]],
+      tooltip: `+${armValue} DEF, -${dmgValue} ATK.`
+    }];
+  })()
+}, {
+  // Potion 3: Increase ATK only
+  effect: 'customStat',
+  params: (function() {
+    let dmgValue = Math.floor(Math.random() * 20 + 15); // Random ATK increase
+    return [{
+      stats: [['dmg', dmgValue]],
+      tooltip: `+${dmgValue} ATK.`
+    }];
+  })()
+}], [{
     effect: 'unlockArchery',
     params: [],
     tooltip: 'Unlocks Archery',
