@@ -83,8 +83,7 @@ define([''], function () {
   }, {
     effect: 'customStat',
     params: [{
-      multis: [['arm', 1.1]],
-      stats: [['slm', 10]]
+      multis: [['arm', 1.15], ['mhp', 0.9]],
     }],
     icon: 149
   }], [{
