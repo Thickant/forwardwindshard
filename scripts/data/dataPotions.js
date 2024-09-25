@@ -76,13 +76,15 @@ define([''], function () {
   }, {
     effect: 'customStat',
     params: [{
-      stats: [['cri', 10]]
+      stats: [['cri', 10]],
+      multis: [['dmg', 1.05]]
     }],
     icon: 150
   }, {
     effect: 'customStat',
     params: [{
-      multis: [['arm', 1.1]]
+      multis: [['arm', 1.1]],
+      stats: [['slm', 10]]
     }],
     icon: 149
   }], [{
