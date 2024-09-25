@@ -60,16 +60,17 @@ define([''], function () {
 }], [{
 
     effect: 'experience',
-    params: [100],
+    params: [150],
     icon: 144,
-    tooltip: '+100 EXP'
+    tooltip: '+150 EXP'
   }], [{
     effect: 'randomStat',
     params: []
   }], [{
     effect: 'customStat',
     params: [{
-      stats: [['iml', 2]]
+      stats: [['iml', 2]],
+      multis: [['mhp', 1.05]]
     }],
     icon: 146
   }, {
