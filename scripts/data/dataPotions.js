@@ -199,7 +199,7 @@ define([''], function () {
   }, {
     effect: 'customStat',
     params: [{
-      multis: [['arm', 1.1], ['mhp', 0.9]]
+      multis: [['arm', 1.15], ['mhp', 0.9]]
     }],
     icon: 149
   }], [{
