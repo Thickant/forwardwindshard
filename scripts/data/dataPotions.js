@@ -110,7 +110,7 @@ define([''], function () {
   effect: 'customStat',
   params: (function() {
     let armValue = Math.floor(Math.random() * 20 + 35); // Random DEF increase
-    let dmgValue = Math.floor(Math.random() * 10 + 15);  // Random ATK decrease
+    let dmgValue = Math.floor(Math.random() * 8 + 14);  // Random ATK decrease
     return [{
       stats: [['arm', armValue], ['dmg', -dmgValue]],
       tooltip: `+${armValue} DEF, -${dmgValue} ATK.`
