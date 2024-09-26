@@ -98,7 +98,7 @@ define([''], function () {
   // Potion 1: Increase HP but decrease ATK
   effect: 'customStat',
   params: (function() {
-    let mhpValue = Math.floor(Math.random() * 20 + 35); // Random HP increase
+    let mhpValue = Math.floor(base * (0.8 * level + 2.2 * Math.pow(level, 1.3) + 0.4 * Math.pow(1.2, level))); // Random HP increase
     let dmgValue = Math.floor(Math.random() * 10 + 15);  // Random ATK decrease
     return [{
       stats: [['mhp', mhpValue], ['dmg', -dmgValue]],
