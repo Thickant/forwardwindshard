@@ -50,8 +50,8 @@ define([''], function () {
   // Potion 3: Random HP and DEF boost
   effect: 'customStat',
   params: (function() {
-    let mhpValue = Math.floor(Math.random() * 10 + 15); // Random HP value
-    let armValue = Math.floor(Math.random() * 10 + 15); // Random DEF value
+    let mhpValue = Math.floor(Math.random() * 8 + 18); // Random HP value
+    let armValue = Math.floor(Math.random() * 8 + 18); // Random DEF value
     return [{
       stats: [['mhp', mhpValue], ['arm', armValue]],
       tooltip: `+${mhpValue} HP, +${armValue} DEF.`
@@ -152,7 +152,7 @@ define([''], function () {
   }, {
     effect: 'customStat',
     params: [{
-      stats: [['lch', 2]]
+      stats: [['lch', 2], ['slm', 5]]
     }],
     icon: 148
   }], [{
@@ -167,7 +167,7 @@ define([''], function () {
   }, {
     effect: 'customStat',
     params: [{
-      stats: [['lch', 2]]
+      stats: [['lch', 2], ['slm', 5]]
     }],
     icon: 148
   }], [{
