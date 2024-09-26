@@ -185,19 +185,21 @@ define([''], function () {
   }], [{
     effect: 'customStat',
     params: [{
-      stats: [['iml', 2]]
+      stats: [['iml', 2]],
+      multis: [['mhp', 1.05]]
     }],
     icon: 146
   }, {
     effect: 'customStat',
     params: [{
-      stats: [['cri', 10]]
+      stats: [['cri', 10]],
+      multis: [['dmg', 1.05]]
     }],
     icon: 150
   }, {
     effect: 'customStat',
     params: [{
-      multis: [['arm', 1.1]]
+      multis: [['arm', 1.1], ['mhp', 0.9]]
     }],
     icon: 149
   }], [{
