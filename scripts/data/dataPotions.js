@@ -14,7 +14,7 @@ define([''], function () {
       positive: ['dmg', 'arm'],
       negative: ['mhp']
     }]
-  }]
+  }],
   // Will - End test multiple stat potions
   [{
     effect: 'randomStat',
