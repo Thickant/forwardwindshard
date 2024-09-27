@@ -8,13 +8,13 @@ define([''], function () {
   // [{effect:'customStat',   params:[{stats:[['lch', -4], ['hpr', 2]]}], icon:153, tooltip:'-4 LEECH\n+2 REGEN'}, {effect:'customStat',   params:[{stats:[['lch', 4], ['hpr', -2]]}], icon:154, tooltip:'-2 REGEN\n+4 LEECH'}, {effect:'experience',    params:[2000], icon:145, tooltip:'+1200 EXP'}],
   //* Potions
   // Will - Test multiple stat potions
-  [{
-    effect: 'multipleStat',
-    params: [{
-      positive: ['dmg', 'arm'],
-      negative: ['mhp']
-    }]
-  }],
+//  [{
+  //  effect: 'multipleStat',
+ //   params: [{
+   //   positive: ['dmg', 'arm'],
+  //    negative: ['mhp']
+   // }]
+//  }],
   // Will - End test multiple stat potions
   [{
     effect: 'randomStat',
@@ -35,35 +35,21 @@ define([''], function () {
     tooltip: '+20 ATK/DEF'
 }], [{
   // Potion 1: Random ATK and HP boost
-  effect: 'customStat',
-  params: (function() {
-    let dmgValue = Math.floor(Math.random() * 7 + 12); // Random ATK value
-    let mhpValue = Math.floor(Math.random() * 10 + 15); // Random HP value
-    return [{
-      stats: [['dmg', dmgValue], ['mhp', mhpValue]],
-      tooltip: `+${dmgValue} ATK, +${mhpValue} HP.`
+  effect: 'multipleStat',
+  params: [{
+    positive: ['dmg', 'arm'],
     }];
   })()
 }, {
-  // Potion 2: Random ATK and DEF boost
-  effect: 'customStat',
-  params: (function() {
-    let dmgValue = Math.floor(Math.random() * 7 + 12); // Random ATK value
-    let armValue = Math.floor(Math.random() * 10 + 15); // Random DEF value
-    return [{
-      stats: [['dmg', dmgValue], ['arm', armValue]],
-      tooltip: `+${dmgValue} ATK, +${armValue} DEF.`
+  effect: 'multipleStat',
+  params: [{
+    positive: ['mhp', 'arm'],
     }];
   })()
 }, {
-  // Potion 3: Random HP and DEF boost
-  effect: 'customStat',
-  params: (function() {
-    let mhpValue = Math.floor(Math.random() * 8 + 18); // Random HP value
-    let armValue = Math.floor(Math.random() * 8 + 18); // Random DEF value
-    return [{
-      stats: [['mhp', mhpValue], ['arm', armValue]],
-      tooltip: `+${mhpValue} HP, +${armValue} DEF.`
+  effect: 'multipleStat',
+  params: [{
+    positive: ['dmg', 'mhp'],
     }];
   })()
 }], [{
