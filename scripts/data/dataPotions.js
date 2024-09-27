@@ -38,19 +38,19 @@ define([''], function () {
   effect: 'multipleStat',
   params: [{
     positive: ['dmg', 'arm'],
-    }];
+    }]
   })()
 }, {
   effect: 'multipleStat',
   params: [{
     positive: ['mhp', 'arm'],
-    }];
+    }]
   })()
 }, {
   effect: 'multipleStat',
   params: [{
     positive: ['dmg', 'mhp'],
-    }];
+    }]
   })()
 }], [{
     effect: 'experience',
