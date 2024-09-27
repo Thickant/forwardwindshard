@@ -7,6 +7,15 @@ define([''], function () {
   var potions = [//* Put tests here
   // [{effect:'customStat',   params:[{stats:[['lch', -4], ['hpr', 2]]}], icon:153, tooltip:'-4 LEECH\n+2 REGEN'}, {effect:'customStat',   params:[{stats:[['lch', 4], ['hpr', -2]]}], icon:154, tooltip:'-2 REGEN\n+4 LEECH'}, {effect:'experience',    params:[2000], icon:145, tooltip:'+1200 EXP'}],
   //* Potions
+  // Will - Test multiple stat potions
+  [{
+    effect: 'multipleStat',
+    params: [{
+      positive: ['dmg', 'arm'],
+      negative: ['mhp']
+    }]
+  }],
+  // Will - End test multiple stat potions
   [{
     effect: 'randomStat',
     params: []
