@@ -64,6 +64,36 @@ define(['game', 'stats', 'dataItems'], function (game, Stats, DataItems) {
         this.stats.addFromData(statData);
       }
     }, {
+      key: "multipleStatGenerate",
+      value: function multipleStatGenerate(data) {
+        const statNames = ['dmg', 'mhp', 'arm'];
+        const tooltipNames = ['ATK', 'HP', 'DEF']
+
+        const stats = [];
+        const tooltip = [];
+
+        for (const stat of data.positive) {
+          const type = names.indexOf(stat);
+          const base = DataItems[type].stats[0][1];
+          const value = this.getValue(base);
+          stats.push([stat, value]);
+          tooltip.push(`+${value} ${tooltipName[type]}`);
+        }
+
+        for (const stat of data.negative) {
+          const type = names.indexOf(stat);
+          const base = DataItems[type].stats[0][1];
+          const value = -this.getValue(base);
+          stats.push([stat, value]);
+          tooltip.push(`-${value} ${tooltipName[type]}`);
+        }
+
+        const statData = {
+          stats: stats,
+          tooltip: tooltip.join(", ")
+        }
+      }
+    }, {
       key: "getValue",
       value: function getValue(base) {
         var formula = function formula(level) {
@@ -93,6 +123,11 @@ define(['game', 'stats', 'dataItems'], function (game, Stats, DataItems) {
     }, {
       key: "randomStatUse",
       value: function randomStatUse() {
+        this.applyStats();
+      }
+    }, {
+      key: "multipleStatUse",
+      value: function multipleStatUse() {
         this.applyStats();
       }
     }, {
