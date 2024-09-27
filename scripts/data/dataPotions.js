@@ -34,24 +34,20 @@ define([''], function () {
     }],
     tooltip: '+20 ATK/DEF'
 }], [{
-  // Potion 1: Random ATK and HP boost
   effect: 'multipleStat',
   params: [{
     positive: ['dmg', 'arm'],
     }]
-  })()
 }, {
   effect: 'multipleStat',
   params: [{
     positive: ['mhp', 'arm'],
     }]
-  })()
 }, {
   effect: 'multipleStat',
   params: [{
     positive: ['dmg', 'mhp'],
     }]
-  })()
 }], [{
     effect: 'experience',
     params: [150],
