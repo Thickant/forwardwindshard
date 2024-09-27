@@ -37,16 +37,19 @@ define([''], function () {
   effect: 'multipleStat',
   params: [{
     positive: ['dmg', 'arm'],
+    negative: []
     }]
 }, {
   effect: 'multipleStat',
   params: [{
     positive: ['mhp', 'arm'],
+    negative: []
     }]
 }, {
   effect: 'multipleStat',
   params: [{
     positive: ['dmg', 'mhp'],
+    negative: []
     }]
 }], [{
     effect: 'experience',
