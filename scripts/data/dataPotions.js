@@ -103,7 +103,6 @@ define([''], function () {
 }, {
   effect: 'randomStat',
     params: ['dmg']
-    }]
 }], [{
     effect: 'unlockArchery',
     params: [],
