@@ -151,13 +151,13 @@ define([''], function () {
     [{
       effect: 'customStat',
       params: [{
-        stats: [['hpr', 1]]
+        stats: [['hpr', 1], ['iml', 1]]
       }],
       icon: 147
     }, {
       effect: 'customStat',
       params: [{
-        stats: [['lch', 2]]
+        stats: [['lch', 2], ['slm', 5]]
       }],
       icon: 148
     }],
