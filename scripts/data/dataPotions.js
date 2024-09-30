@@ -113,14 +113,20 @@ define([''], function () {
     effect: 'randomStat',
     params: []
   }], [{
-    effect: 'randomStat',
-    params: ['dmg']
+  effect: 'multipleStat',
+  params: [{
+    positive: ['mhp', 'dmg', 'arm'],
+    negative: []
   }, {
-    effect: 'randomStat',
-    params: ['mhp']
+  effect: 'multipleStat',
+  params: [{
+    positive: ['mhp', 'dmg', 'arm'],
+    negative: []
   }, {
-    effect: 'randomStat',
-    params: ['arm']
+  effect: 'multipleStat',
+  params: [{
+    positive: ['mhp', 'dmg', 'arm'],
+    negative: []
   }], [{
     effect: 'customStat',
     params: [{
