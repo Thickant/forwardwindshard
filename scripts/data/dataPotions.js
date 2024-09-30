@@ -132,7 +132,7 @@ define([''], function () {
       stats: [['hpr', 1], ['iml', 1] ]
     }],
     icon: 147
-  }, {
+  } {
     effect: 'customStat',
     params: [{
       stats: [['lch', 2], ['slm', 5]]
