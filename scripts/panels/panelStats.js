@@ -73,7 +73,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
           w: 64,
           h: 8,
           s: 0,
-          n: 5,
+          n: 6,
           l: 1,
           delay: 20
         };
