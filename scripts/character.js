@@ -150,7 +150,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         var regen = this.mhp * this.hpr / 100 / 60;
         this.hp = Math.min(this.hp + regen, this.mhp);
         var poison = this.mph * this.psn / 100 / 60;
-        this.hp = Math.min(this.hp - poison, this.mhp)
+        this.hp = Math.max(this.hp - poison, this.mhp)
       }
     }, {
       key: "updateImmolation",
