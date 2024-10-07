@@ -77,6 +77,10 @@ define([''], function () {
     name: 'hnt',
     real: 'Hunter FLAG: Arrows are based on DEF instead of ATK'
   }, {
+    name: 'psn',
+    real: 'POISON',
+    tooltip: 'Percentage of HP\n taken as health per second'
+  }, {
     name: 'are',
     real: 'Arrows recovery FLAG: Regain arrows when using guard spell'
   }, // {name:'shp', real:'Starting HP Percentage'},
