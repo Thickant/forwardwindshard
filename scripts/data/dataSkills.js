@@ -12,7 +12,7 @@ define([''], function () {
   }, {
     icon: 33,
     stats: [['lch', 4], ['psn', 20]],
-    tooltip: '4% LEECH. but gain 2% POISON'
+    tooltip: '4% LEECH. but gain 20% POISON'
   }, {
     icon: 34,
     stats: [['bsh', 50]],
