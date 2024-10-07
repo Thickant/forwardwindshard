@@ -79,6 +79,7 @@ define([''], function () {
   }, {
     name: 'psn',
     real: 'POISON',
+    percent: true,
     tooltip: 'Percentage of HP\n taken as health per second'
   }, {
     name: 'are',
