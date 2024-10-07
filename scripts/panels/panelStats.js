@@ -51,7 +51,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
         this.x = 90;
         this.y = 10;
         this.attributeStats = [['mhp', 'HP'], ['dmg', 'ATK'], ['arm', 'DEF']];
-        this.secondaryStats = ['cri', 'hpr', 'lch', 'iml', 'arr'];
+        this.secondaryStats = ['cri', 'hpr', 'lch', 'iml', 'psn', 'arr'];
         this.otherStats = [['experience', 'EXP'], ['level', 'LVL']];
       }
     }, {
