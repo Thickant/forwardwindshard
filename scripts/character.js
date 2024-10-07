@@ -103,6 +103,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         }
 
         this.updateHealth();
+        this.updatePoison();
         this.updateImmolation();
       }
     }, {
