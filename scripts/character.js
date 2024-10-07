@@ -64,7 +64,6 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
       };
       _this.level = 1;
       _this.experience = 0;
-      _this.psn = 1;
       _this.items = [];
       _this.equips = [];
       _this.attributes = [];
