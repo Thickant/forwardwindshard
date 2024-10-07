@@ -7,7 +7,7 @@ define([''], function () {
   var skills = [// Page 1
   {
     icon: 32,
-    multis: [['mhp', 1.25], ['dmg', 0.95]],
+    multis: [['mhp', 1.25], ['arm', 0.95]],
     tooltip: '25% more HP. but 5% less DEF'
   }, {
     icon: 33,
