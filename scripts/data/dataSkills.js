@@ -30,7 +30,7 @@ define([''], function () {
   }, {
     icon: 37,
     stats: [['grd', 1]],
-    tooltip: 'Grants GUARD Spell:\nClick on your character to gain\n 50% DEF and -50% POISON for 6 seconds.
+    tooltip: 'Grants GUARD Spell:\nClick on your character to gain\n 50% DEF and -50% POISON for 6 seconds.'
   }, {
     icon: 38,
     stats: [['hpr', 4]],
