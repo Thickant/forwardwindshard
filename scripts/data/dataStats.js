@@ -66,7 +66,8 @@ define([''], function () {
     real: 'Multiplies LEECH and REGEN while guarded'
   }, {
     name: 'slm',
-    real: 'Special Leech Multiplier'
+    real: 'SLM',
+    tooltip: 'Determines how much SHIELD Strike and CRITICAL Strikes LEECH'
   }, {
     name: 'abs',
     real: 'Damage Absorbtion'
