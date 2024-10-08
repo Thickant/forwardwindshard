@@ -11,7 +11,7 @@ define([''], function () {
     tooltip: '25% more HP. but 5% less DEF'
   }, {
     icon: 33,
-    stats: [['lch', 4], ['psn', 2]],
+    stats: [['lch', 4], ['psn', 4]],
     tooltip: '4% LEECH. but gain 2% POISON'
   }, {
     icon: 34,
@@ -34,15 +34,16 @@ define([''], function () {
   }, {
     icon: 38,
     stats: [['hpr', 4]],
-    tooltip: '4% REGEN.'
+    multis: [['dmg', 0.95]],
+    tooltip: '4% REGEN.\n5% less ATK',
   }, {
     icon: 39,
     stats: [['cri', 25]],
     tooltip: '25% CRIT.'
   }, {
     icon: 40,
-    multis: [['arm', 1.40], ['dmg', 0.8]],
-    tooltip: '40% more DEF.\nbut 20% less ATK'
+    multis: [['arm', 1.40], ['dmg', 0.85]],
+    tooltip: '40% more DEF.\nbut 15% less ATK'
   }, {
     icon: 41,
     multis: [['mhp', 1.3], ['dmg', 0.8]],
@@ -64,8 +65,8 @@ define([''], function () {
     tooltip: '-2 ARROWS.\nGrants an additional FREEZE Spell.\nFrozen enemies take 2.5x\ndamage from BURN.'
   }, {
     icon: 45,
-    stats: [['lch', 5], ['slm', -40]],
-    tooltip: '5% LEECH.\nCRITICAL and SHIELD Strikes\nleech 40% less.'
+    stats: [['lch', 8], ['psn', 8], ['slm', -40]],
+    tooltip: '8% LEECH, 8% POISON.\nCRITICAL and SHIELD Strikes\nleech 40% less.'
   }, {
     icon: 46,
     stats: [['arr', -1], ['bsh', 50], ['slm', 10]],
