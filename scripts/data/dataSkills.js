@@ -65,7 +65,7 @@ define([''], function () {
     tooltip: '-2 ARROWS.\nGrants an additional FREEZE Spell.\nFrozen enemies take 2.5x\ndamage from BURN.'
   }, {
     icon: 45,
-    stats: [['lch', 10], ['psn', 6], ['slm', -40]],
+    stats: [['lch', 10], ['psn', 6], ['slm', -30]],
     tooltip: '10% LEECH, 6% POISON.\nCRITICAL and SHIELD Strikes\nleech 30% less.'
   }, {
     icon: 46,
