@@ -51,7 +51,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
         this.x = 90;
         this.y = 10;
         this.attributeStats = [['mhp', 'HP'], ['dmg', 'ATK'], ['arm', 'DEF']];
-        this.secondaryStats = ['cri', 'hpr', 'lch', 'iml', 'arr', 'psn'];
+        this.secondaryStats = ['cri', 'hpr', 'lch', 'iml', 'arr', 'psn', 'slm'];
         this.otherStats = [['experience', 'EXP'], ['level', 'LVL']];
       }
     }, {
@@ -73,7 +73,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
           w: 64,
           h: 8,
           s: 0,
-          n: 6,
+          n: 7,
           l: 1,
           delay: 20
         };
