@@ -79,7 +79,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
         };
         this.bars.other = {
           x: 6,
-          y: 76,
+          y: 84,
           w: 64,
           h: 8,
           s: 0,
