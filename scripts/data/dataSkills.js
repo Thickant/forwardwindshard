@@ -11,7 +11,7 @@ define([''], function () {
     tooltip: '25% more HP. but 5% less DEF'
   }, {
     icon: 33,
-    stats: [['lch', 4], ['psn', 4]],
+    stats: [['lch', 6], ['psn', 3]],
     tooltip: '4% LEECH. but gain 4% POISON'
   }, {
     icon: 34,
@@ -65,8 +65,8 @@ define([''], function () {
     tooltip: '-2 ARROWS.\nGrants an additional FREEZE Spell.\nFrozen enemies take 2.5x\ndamage from BURN.'
   }, {
     icon: 45,
-    stats: [['lch', 8], ['psn', 8], ['slm', -40]],
-    tooltip: '8% LEECH, 8% POISON.\nCRITICAL and SHIELD Strikes\nleech 40% less.'
+    stats: [['lch', 10], ['psn', 6], ['slm', -40]],
+    tooltip: '10% LEECH, 6% POISON.\nCRITICAL and SHIELD Strikes\nleech 40% less.'
   }, {
     icon: 46,
     stats: [['arr', -1], ['bsh', 50], ['slm', 10]],
