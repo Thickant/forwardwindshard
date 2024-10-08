@@ -47,7 +47,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
         _get(_getPrototypeOf(PanelStats.prototype), "initialize", this).call(this);
 
         this.width = 76;
-        this.height = 98;
+        this.height = 106;
         this.x = 90;
         this.y = 10;
         this.attributeStats = [['mhp', 'HP'], ['dmg', 'ATK'], ['arm', 'DEF']];
