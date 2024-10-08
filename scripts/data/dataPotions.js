@@ -96,7 +96,7 @@ define([''], function () {
       params: [{
         stats: [['mhp', 45], ['dmg', 30]]
       }],
-      tooltip: '+30 HP/ATK'
+      tooltip: '+45 HP\n+30 ATK'
     }],
 
     [{
