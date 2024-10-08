@@ -94,7 +94,7 @@ define([''], function () {
     [{
       effect: 'customStat',
       params: [{
-        stats: [['mhp', 30], ['dmg', 30]]
+        stats: [['mhp', 45], ['dmg', 30]]
       }],
       tooltip: '+30 HP/ATK'
     }],
