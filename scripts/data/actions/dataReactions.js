@@ -74,7 +74,7 @@ define([''], function () {
         return true;
       },
       data: [['addState', ['guard', {
-        multis: [['arm', 1.5]]
+        multis: [['arm', 1.5], ['psn', 0.5]]
       }]], ['setVariable', 'arrows', {
         "var": 'ARROW_RECOVERY'
       }], ['wait', 360], ['removeState', 'guard']]
