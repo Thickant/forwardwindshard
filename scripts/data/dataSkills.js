@@ -66,7 +66,7 @@ define([''], function () {
   }, {
     icon: 45,
     stats: [['lch', 10], ['psn', 5], ['slm', -30]],
-    tooltip: '10% LEECH, 6% POISON.\nCRITICAL and SHIELD Strikes\nleech 30% less.'
+    tooltip: '10% LEECH, 5% POISON.\nCRITICAL and SHIELD Strikes\nleech 30% less.'
   }, {
     icon: 46,
     stats: [['arr', -1], ['bsh', 50], ['slm', 10]],
