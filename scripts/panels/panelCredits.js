@@ -30,7 +30,19 @@ define(['game', 'panelBase'], function (game, PanelBase) {
   //*******************************************************************************************************************
   // ** Credits
   //*******************************************************************************************************************
-  var credits = ['Game: Adventale', 'Munro Font: Ten by Twenty', '-----------', 'Javascript libraries used:', 'Require.js, Howler.js, PIXI.js, SAT.js', '-----------', 'Main tools used:', 'Atom: Writing code', 'Aseprite: Pixel art', 'Tiled: Map layout']; //*******************************************************************************************************************
+  var credits = [
+    'Game: Adventale',
+    'Munro Font: Ten by Twenty',
+    'Modding: Thickant, Will Kroboth',
+    '-----------',
+    'Javascript libraries used:',
+    'Require.js, Howler.js, PIXI.js, SAT.js',
+    '-----------',
+    'Main tools used:',
+    'Atom: Writing code',
+    'Aseprite: Pixel art',
+    'Tiled: Map layout'];
+  //*******************************************************************************************************************
   // ** The Settings panel
   //*******************************************************************************************************************
 
