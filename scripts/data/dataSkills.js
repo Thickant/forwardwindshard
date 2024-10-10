@@ -24,8 +24,8 @@ define([''], function () {
     tooltip: '5% BURN.'
   }, {
     icon: 36,
-    multis: [['dmg', 1.20]],
-    stats: [['cri', 15], ['psn', 3]],
+    multis: [['dmg', 1.15]],
+    stats: [['cri', 15], ['psn', 2]],
     tooltip: '20% more ATK.\n15% CRIT\n3% POISON'
   }, {
     icon: 37,
