@@ -26,7 +26,7 @@ define([''], function () {
     icon: 36,
     multis: [['dmg', 1.15]],
     stats: [['cri', 15], ['psn', 2]],
-    tooltip: '20% more ATK.\n15% CRIT\n3% POISON'
+    tooltip: '15% more ATK.\n15% CRIT\n2% POISON'
   }, {
     icon: 37,
     stats: [['grd', 1]],
