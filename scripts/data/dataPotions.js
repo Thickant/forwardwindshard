@@ -189,7 +189,7 @@ define([''], function () {
     }, {
       effect: 'customStat',
       params: [{
-        stats: [['frz', 1]]
+        stats: [['frz', 20]]
       }]
     }, {
       effect: 'customStat',
