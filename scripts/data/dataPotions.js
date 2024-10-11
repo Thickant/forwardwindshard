@@ -182,25 +182,21 @@ define([''], function () {
     }],
 
     [{
-      effect: 'randomStat',
-      params: []
+      effect: 'customStat',
+      params: [{
+        stats: [['dmg', 400]]
+      }]
+    }, {
+      effect: 'customStat',
+      params: [{
+        stats: [['mhp', 1000]]
+      }]
+    }, {
+      effect: 'customStat',
+      params: [{
+        stats: [['arm', 600]]
+      }]
     }],
-
-    [{
-      effect: 'customStat',
-      params: [{
-        stats: [['frz', 1]]
-      }]
-    }, {
-      effect: 'customStat',
-      params: [{
-        stats: [['grd', 1]]
-      }]
-    }, {
-      effect: 'customStat',
-      params: [{
-        stats: [['arr', 600]]
-      }]
 
     [{
       effect: 'customStat',
