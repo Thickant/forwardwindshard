@@ -49,7 +49,7 @@ define(['game', 'panelBase'], function (game, PanelBase) {
         this.width = 60;
         this.height = 76;
         this.x = 58;
-        this.y = 58;
+        this.y = 50;
         this.overwriteIndex = -1;
         this.command = null;
         this.dataSlots = [];
