@@ -184,7 +184,7 @@ define([''], function () {
     [{
       effect: 'customStat',
       params: [{
-        stats: [['arr', 400]]
+        stats: [['arr', 40000]]
       }]
     }, {
       effect: 'customStat',
