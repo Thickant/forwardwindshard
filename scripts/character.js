@@ -446,7 +446,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
     }, {
       key: "secondSkillPageAvailable",
       value: function secondSkillPageAvailable() {
-        return this.level >= 24;
+        return this.level >= 18;
       }
     }, {
       key: "destroy",
