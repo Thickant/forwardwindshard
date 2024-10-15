@@ -51,6 +51,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
         this.x = 10;
         this.y = 10;
         this.page = 0;
+        this.pagesAvailable = 0;
       }
     }, {
       key: "setupElements",
@@ -132,6 +133,13 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
     }, {
       key: "updatePagesBarState",
       value: function updatePagesBarState() {
+        if (!game.character.secondSkillPageAvailable()) {
+          this.pagesAvailable = 0;
+        } else if  (!game.character.thirdSkillPageAvailable())
+          this.pagesAvailable = 1;
+        } else {
+          this.pagesAvailable = 2;
+        }
         this.bars.pages.disabled = !game.character.secondSkillPageAvailable();
       } //*******************************************************************************************************************
       // * Input
@@ -160,7 +168,10 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
     }, {
       key: "pagesBarClicked",
       value: function pagesBarClicked(index) {
-        this.page = this.page === 1 ? 0 : 1;
+        this.page += 1;
+        if (this.page > this.pagesAvailable) {
+          this.page = 0;
+        }
         game.audio.playSfx('switch');
       } //*******************************************************************************************************************
       // * Tooltips
