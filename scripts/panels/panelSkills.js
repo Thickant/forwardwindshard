@@ -117,12 +117,13 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
     }, {
       key: "pagesBarUpdateSprites",
       value: function pagesBarUpdateSprites(sprites, rect, index) {
-        sprites.icon.setIndex(213 + this.page);
-        if (this.page == 2) {
-          sprites.icon.setIndex(221);
-        }
+        if (this.pagesAvailable == 1) {
+          sprites.icon.setIndex(213 + this.page);
+        } else {
+          sprites.icon.setIndex(221 + this.page);
+        } 
         sprites.icon.visible = !this.bars.pages.disabled;
-      } //*******************************************************************************************************************
+      }  //*******************************************************************************************************************
       // * Update
       //*******************************************************************************************************************
 
