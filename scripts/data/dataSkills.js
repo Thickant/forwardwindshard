@@ -107,7 +107,7 @@ define([''], function () {
     stats: [['rag', 0.5]],
     tooltip: 'Gain 0.5% more ATK\nwhen you are hit.\nStacks additively.'
   }, {
-    icon: 55,
+    icon: 56,
     stats: [['gbs', 150]],
     tooltip: 'LEECH and REGEN are\nincreased by 50% while under\nGUARD Spell.'
   }];
