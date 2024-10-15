@@ -449,8 +449,8 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         return this.level >= 18;
       }
     }, {
-      key: "thridSkillPageAvailable",
-      value: function thridSkillPageAvailable() {
+      key: "thirdSkillPageAvailable",
+      value: function thirdSkillPageAvailable() {
         return this.level >= 33;
       }
     }, {
