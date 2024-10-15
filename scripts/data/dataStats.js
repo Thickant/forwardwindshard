@@ -44,11 +44,11 @@ define([''], function () {
     name: 'psn',
     real: 'POISON',
     percent: true,
-    tooltip: 'Percentage of HP\n taken as health per second'
+    tooltip: 'Percentage of HP\ntaken as health per second'
   }, {
     name: 'slm',
     real: 'SLM',
-    tooltip: 'Determines how much SHIELD Strike and CRITICAL Strikes LEECH'
+    tooltip: 'Determines how much SHIELD Strike\nand CRITICAL Strikes LEECH'
   }, {
     name: 'frz',
     real: 'Freezes'
