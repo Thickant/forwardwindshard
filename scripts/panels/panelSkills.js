@@ -212,7 +212,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
       key: "availableAt",
       value: function availableAt(index) {
         var adjustedIndex = index + this.page * 12;
-        return Math.floor(adjustedIndex / 3) < Math.floor(game.character.level / 4) - Math.floor(game.character.level / 24);
+        return Math.floor(adjustedIndex / 3) < Math.floor(game.character.level / 3) - Math.floor(game.character.level / 24);
       } //*******************************************************************************************************************
       // * Other
       //*******************************************************************************************************************
