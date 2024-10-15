@@ -449,6 +449,11 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         return this.level >= 18;
       }
     }, {
+      key: "thridSkillPageAvailable",
+      value: function thridSkillPageAvailable() {
+        return this.level >= 33;
+      }
+    }, {
       key: "destroy",
       value: function destroy() {
         this.action = null;
