@@ -262,7 +262,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         this.rest();
         this.experience -= this.experienceForNextLevel();
         this.level += 1;
-        this.skillPoints += this.level % 4 == 0 ? 1 : 0;
+        this.skillPoints += this.level % 3 == 0 ? 1 : 0;
       } //*******************************************************************************************************************
       // * Stats
       //*******************************************************************************************************************
