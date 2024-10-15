@@ -11,7 +11,7 @@ define([''], function () {
     tooltip: '25% more HP. but 5% less DEF'
   }, {
     icon: 33,
-    stats: [['lch', 6], ['psn', 3]],
+    stats: [['lch', 6], ['psn', 3], ['bld', 50]],
     tooltip: '6% LEECH. but gain 3% POISON'
   }, {
     icon: 34,
