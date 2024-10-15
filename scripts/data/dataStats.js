@@ -78,6 +78,11 @@ define([''], function () {
     name: 'hnt',
     real: 'Hunter FLAG: Arrows are based on DEF instead of ATK'
   }, {
+    name: 'bld',
+    real: 'BLEED',
+    percent: true,
+    tooltip: 'Percentage of enemies health\nthat they lose per second'
+  }, {
     name: 'psn',
     real: 'POISON',
     percent: true,
