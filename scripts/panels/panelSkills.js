@@ -135,7 +135,7 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
       value: function updatePagesBarState() {
         if (!game.character.secondSkillPageAvailable()) {
           this.pagesAvailable = 0;
-        } else if  (!game.character.thirdSkillPageAvailable())
+        } else if (!game.character.thirdSkillPageAvailable()) {
           this.pagesAvailable = 1;
         } else {
           this.pagesAvailable = 2;
