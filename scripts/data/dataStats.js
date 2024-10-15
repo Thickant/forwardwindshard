@@ -41,6 +41,15 @@ define([''], function () {
     real: 'ARROWS',
     tooltip: 'Number of arrows you can shoot.'
   }, {
+    name: 'psn',
+    real: 'POISON',
+    percent: true,
+    tooltip: 'Percentage of HP\n taken as health per second'
+  }, {
+    name: 'slm',
+    real: 'SLM',
+    tooltip: 'Determines how much SHIELD Strike and CRITICAL Strikes LEECH'
+  }, {
     name: 'frz',
     real: 'Freezes'
   }, {
@@ -65,10 +74,6 @@ define([''], function () {
     name: 'gbs',
     real: 'Multiplies LEECH and REGEN while guarded'
   }, {
-    name: 'slm',
-    real: 'SLM',
-    tooltip: 'Determines how much SHIELD Strike and CRITICAL Strikes LEECH'
-  }, {
     name: 'abs',
     real: 'Damage Absorbtion'
   }, {
@@ -82,11 +87,6 @@ define([''], function () {
     real: 'BLEED',
     percent: true,
     tooltip: 'Percentage of enemies health\nthat they lose per second'
-  }, {
-    name: 'psn',
-    real: 'POISON',
-    percent: true,
-    tooltip: 'Percentage of HP\n taken as health per second'
   }, {
     name: 'are',
     real: 'Arrows recovery FLAG: Regain arrows when using guard spell'
