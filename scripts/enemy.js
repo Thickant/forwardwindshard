@@ -132,7 +132,9 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
         this.updateAction();
         this.updateFloating();
         this.updateHealth();
-        this.updateBleed
+        if (this.hp >= 0){
+          this.updateBleed();
+        }
       }
     }, {
       key: "updateActiveness",
@@ -201,7 +203,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
       key: "updateBleed",
       value: function updateBleed() {
         var bleed = this.mhp * this.bld / 100 / 60;
-        this.hp = Math.max(this.hp - bleed, 0);
+        this.hp = Math.min(this.hp - bleed, this.mhp);
       }
     }, {
       key: "reset",
