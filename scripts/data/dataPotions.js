@@ -184,12 +184,12 @@ define([''], function () {
     [{
       effect: 'customStat',
       params: [{
-        stats: [['arr', 40000]]
+        stats: [['arr', 1]]
       }]
     }, {
       effect: 'customStat',
       params: [{
-        stats: [['frz', 20]]
+        stats: [['frz', 1]]
       }]
     }, {
       effect: 'customStat',
