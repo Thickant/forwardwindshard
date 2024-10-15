@@ -118,6 +118,9 @@ define(['game', 'panelBase', 'dataStats'], function (game, PanelBase, DataStats)
       key: "pagesBarUpdateSprites",
       value: function pagesBarUpdateSprites(sprites, rect, index) {
         sprites.icon.setIndex(213 + this.page);
+        if (this.page == 2) {
+          sprites.icon.setIndex(221);
+        }
         sprites.icon.visible = !this.bars.pages.disabled;
       } //*******************************************************************************************************************
       // * Update
