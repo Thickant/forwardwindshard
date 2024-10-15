@@ -155,7 +155,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
       }
     }, {
       key: "updatePoison",
-      value: function updateHealth() {
+      value: function updatePoison() {
         var poison = this.mhp * this.psn / 100 / 60;
         this.hp = Math.min(this.hp - poison, this.mhp);
       }
