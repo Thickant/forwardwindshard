@@ -120,46 +120,46 @@ define([''], function () {
     stats: [['lch', 10], ['psn', 5], ['slm', -30]],
     tooltip: '10% LEECH, 5% POISON.\nCRITICAL and SHIELD Strikes\nleech 30% less.'
   }, {
-    icon: 46,
+    icon: 178,
     stats: [['arr', -1], ['bsh', 50], ['slm', 10]],
     tooltip: '-1 ARROW.\nAdditional 50% chance to\nperform SHIELD Strike.\nCRITICAL and SHIELD Strikes\n leech 10% more'
   }, {
-    icon: 44,
+    icon: 179,
     stats: [['abs', 12]],
     tooltip: 'Take 12% less damage.'
   }, {
-    icon: 48,
+    icon: 180,
     stats: [['arr', 1]],
     multis: [['dmg', 0.95]],
     tooltip: '1 ARROW.\n 5% less ATK'
   }, {
-    icon: 49,
+    icon: 181,
     stats: [['are', 1], ['hnt', 1]],
     tooltip: 'All spent ARROWS are recovered\nwhen you use GUARD Spell.\nDamage of ARROWS is calculated\non DEF instead of ATK, but at\n30% of the value.'
   }, {
-    icon: 50,
+    icon: 182,
     stats: [['arf', 20]],
     tooltip: '20% of HP is added to\nATK when calculating\nARROW damage.'
   }, {
-    icon: 51,
+    icon: 183,
     stats: [['crm', 50]],
     multis: [['dmg', 0.80]],
     tooltip: '20% less ATK.\nCRITICAL Strikes deal 200%\ninstead of 150% damage.'
   }, {
-    icon: 52,
+    icon: 184,
     stats: [['iml', -5]],
     multis: [['dmg', 1.05], ['arm', 1.05]],
     tooltip: '-5% BURN.\n5% more ATK.\n5% more DEF.'
   }, {
-    icon: 53,
+    icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
     tooltip: '10% more HP.\n4% more ATK.\n8% more DEF.'
   }, {
-    icon: 54,
+    icon: 186,
     stats: [['rag', 0.5]],
     tooltip: 'Gain 0.5% more ATK\nwhen you are hit.\nStacks additively.'
   }, {
-    icon: 55,
+    icon: 187,
     stats: [['gbs', 150]],
     tooltip: 'LEECH and REGEN are\nincreased by 50% while under\nGUARD Spell.'
   }];
