@@ -161,7 +161,7 @@ define([''], function () {
   }, {
     icon: 187,
     stats: [['gbs', 150]],
-    tooltip: 'LEECH and REGEN are\nincreased by 50% while under\nGUARD Spell.'
+    tooltip: 'All Enemies Gain 20% more health\nand Lose -10% damage'
   }];
   return skills;
 });
