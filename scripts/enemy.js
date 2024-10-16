@@ -92,9 +92,9 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
       key: "initializeStats",
       value: function initializeStats() {
         this.baseStats = new Stats();
-        this.baseStats.mhp = Math.floor((20 + 5 * Math.pow(this.level, 1.3) + 5 * Math.pow(1.2, this.level)) * (this.data.mhp || 1) * (game.character.mhpMod));
-        this.baseStats.dmg = Math.floor((10 + 2 * Math.pow(this.level, 1.3) + 2 * Math.pow(1.2, this.level)) * (this.data.dmg || 1) * (game.character.dmgMod));
-        this.baseStats.arm = Math.floor((5.33 + 3 * Math.pow(this.level, 1.3) + 3 * Math.pow(1.2, this.level)) * (this.data.arm || 1) * (game.character.armMod));
+        this.baseStats.mhp = Math.floor((20 + 5 * Math.pow(this.level, 1.3) + 5 * Math.pow(1.2, this.level)) * (this.data.mhp || 1)); // * (game.character.mhpMod) 
+        this.baseStats.dmg = Math.floor((10 + 2 * Math.pow(this.level, 1.3) + 2 * Math.pow(1.2, this.level)) * (this.data.dmg || 1)); // * (game.character.dmgMod)
+        this.baseStats.arm = Math.floor((5.33 + 3 * Math.pow(this.level, 1.3) + 3 * Math.pow(1.2, this.level)) * (this.data.arm || 1)); // * (game.character.armMod)
         this.experience = 12 + Math.floor(1 * this.level * (this.data.exp || 1) * Math.max((1 + this.data.mhp || 1) / 2, 1));
         this.reward = 1;
         console.log(this.baseStats.mhp);
