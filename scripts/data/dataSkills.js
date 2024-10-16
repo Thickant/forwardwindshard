@@ -157,7 +157,7 @@ define([''], function () {
   }, {
     icon: 186,
     stats: [['abs', 10]],
-    multis: [['dmg', 0.9]]
+    multis: [['dmg', 0.9]],
     tooltip: 'Take 10% less damage\nLose 10% ATK'
   }, {
     icon: 187,
