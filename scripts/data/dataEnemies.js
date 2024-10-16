@@ -209,9 +209,9 @@ define([''], function () {
     },
     // Stage 6
     f1: {
-      level: 40,
+      level: 1,
       image: 'a6_fairy',
-      mhp: 20,
+      mhp: 2000,
       actions: ['trial'],
       stageboss: true
     },
