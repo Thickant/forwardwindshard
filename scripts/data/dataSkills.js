@@ -153,15 +153,16 @@ define([''], function () {
   }, {
     icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
-    tooltip: 'Gain 50% sword range\ndoes not apply to shield bash'
+    tooltip: 'Gain 50% sword range\ndoes not apply to SHIELD Strike'
   }, {
     icon: 186,
-    stats: [['rag', 0.5]],
-    tooltip: 'Take 10% less damage\nLose 15% ATK'
+    stats: [['abs', 10]],
+    multis: [['dmg', 0.9]]
+    tooltip: 'Take 10% less damage\nLose 10% ATK'
   }, {
     icon: 187,
     stats: [['gbs', 150]],
-    tooltip: 'All Enemies Gain 20% more health\nand Lose -10% damage'
+    tooltip: 'All Enemies\nGain 20% more health\nLose -10% damage'
   }];
   return skills;
 });
