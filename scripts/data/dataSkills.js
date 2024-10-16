@@ -161,7 +161,7 @@ define([''], function () {
     tooltip: 'Take 10% less damage\nLose 10% ATK'
   }, {
     icon: 187,
-    stats: [['gbs', 150]],
+    stats: [['mhpMod', 1.20], ['dmgMod', 0.9]],
     tooltip: 'All Enemies\nGain 20% more health\nLose -10% damage'
   }];
   return skills;
