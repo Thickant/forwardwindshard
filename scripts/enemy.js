@@ -97,7 +97,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
         this.baseStats.arm = Math.floor((5.33 + 3 * Math.pow(this.level, 1.3) + 3 * Math.pow(1.2, this.level)) * (this.data.arm || 1) * (game.character.armMod));
         this.experience = 12 + Math.floor(1 * this.level * (this.data.exp || 1) * Math.max((1 + this.data.mhp || 1) / 2, 1));
         this.reward = 1;
-        console.log(game.character.mhpMod);
+        console.log(this.baseStats.mhp);
       }
     }, {
       key: "adjustShape",
