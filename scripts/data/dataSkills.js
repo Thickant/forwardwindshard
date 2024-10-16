@@ -153,7 +153,7 @@ define([''], function () {
   }, {
     icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
-    tooltip: 'Gain 50% sword range\ndoesn't apply to shield bash'
+    tooltip: 'Gain 50% sword range\ndoes not apply to shield bash'
   }, {
     icon: 186,
     stats: [['rag', 0.5]],
