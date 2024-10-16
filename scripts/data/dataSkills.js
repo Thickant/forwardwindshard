@@ -153,11 +153,11 @@ define([''], function () {
   }, {
     icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
-    tooltip: '10% more HP.\n4% more ATK.\n8% more DEF.'
+    tooltip: 'Gain 50% sword range\ndoesn't apply to shield bash'
   }, {
     icon: 186,
     stats: [['rag', 0.5]],
-    tooltip: 'Gain 0.5% more ATK\nwhen you are hit.\nStacks additively.'
+    tooltip: 'Take 10% less damage\nLose 15% ATK'
   }, {
     icon: 187,
     stats: [['gbs', 150]],
