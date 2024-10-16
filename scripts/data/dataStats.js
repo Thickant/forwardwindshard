@@ -88,6 +88,15 @@ define([''], function () {
     percent: true,
     tooltip: 'Percentage of enemies health\nthat they lose per second'
   }, {
+    name: 'mhpMod',
+    real: 'Max Health Modifer for Enemies'
+  }, {
+    name: 'dmgMod',
+    real: 'damage Modifer for Enemies'
+  }, {
+    name: 'armMod',
+    real: 'Armor Modifer for Enemies'
+  }, {
     name: 'are',
     real: 'Arrows recovery FLAG: Regain arrows when using guard spell'
   }, // {name:'shp', real:'Starting HP Percentage'},
