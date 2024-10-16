@@ -155,7 +155,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
       }
     }, {
       key: "updatePoison",
-      value: function updateHealth() {
+      value: function updatePoison() {
         var poison = this.mhp * this.psn / 100 / 60;
         this.hp = Math.min(this.hp - poison, this.mhp);
       }
@@ -262,7 +262,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         this.rest();
         this.experience -= this.experienceForNextLevel();
         this.level += 1;
-        this.skillPoints += this.level % 4 == 0 ? 1 : 0;
+        this.skillPoints += this.level % 3 == 0 ? 1 : 0;
       } //*******************************************************************************************************************
       // * Stats
       //*******************************************************************************************************************
@@ -446,7 +446,12 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
     }, {
       key: "secondSkillPageAvailable",
       value: function secondSkillPageAvailable() {
-        return this.level >= 24;
+        return this.level >= 18;
+      }
+    }, {
+      key: "thirdSkillPageAvailable",
+      value: function thirdSkillPageAvailable() {
+        return this.level >= 33;
       }
     }, {
       key: "destroy",

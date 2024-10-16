@@ -132,6 +132,9 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
         this.updateAction();
         this.updateFloating();
         this.updateHealth();
+        if (this.hp >= 0){
+          this.updateBleed();
+        }
       }
     }, {
       key: "updateActiveness",
@@ -195,6 +198,12 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
       value: function updateHealth() {
         var regen = this.mhp * this.hpr / 100 / 60;
         this.hp = Math.min(this.hp + regen, this.mhp);
+      }
+    }, {
+      key: "updateBleed",
+      value: function updateBleed() {
+        var bleed = this.mhp * this.bld / 100 / 60;
+        this.hp = Math.min(this.hp - bleed, this.mhp);
       }
     }, {
       key: "reset",
@@ -262,6 +271,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
         damage = mods.crit ? damage * attacker.crm / 100 : damage;
         damage = arrow ? damage * attacker.bpw / 100 : damage;
         attacker.hp = Math.min(attacker.hp + damage * attacker.lch / 100 * leechMultiplier, attacker.mhp);
+        this.bld = attacker.bld
 
         if (!arrow) {
           attacker.lastEnemyHit = this;

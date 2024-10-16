@@ -169,7 +169,7 @@ define(['game', 'panelBase'], function (game, PanelBase) {
     }, {
       key: "unlockedSkills",
       value: function unlockedSkills() {
-        return game.character.level >= 4;
+        return game.character.level >= 3;
       }
     }, {
       key: "unlockedRelics",
