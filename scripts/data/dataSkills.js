@@ -114,7 +114,7 @@ define([''], function () {
   {
     icon: 176,
     stats: [['bld', 5], ['psn', 3]],
-    tooltip: '+5% BLEED\n3% POISON'
+    tooltip: '5% BLEED\n3% POISON'
   }, {
     icon: 177,
     stats: [['lch', 10], ['psn', 5], ['slm', -30]],
