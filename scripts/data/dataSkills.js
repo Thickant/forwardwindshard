@@ -8,7 +8,7 @@ define([''], function () {
   {
     icon: 32,
     multis: [['mhp', 1.25], ['arm', 0.95]],
-    stats: [['exp', 1.15]],
+    stats: [['exp', 115]],
     tooltip: '25% more HP. but 5% less DEF'
   }, {
     icon: 33,
