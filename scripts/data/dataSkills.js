@@ -117,12 +117,13 @@ define([''], function () {
     tooltip: '3% BLEED\n3% POISON'
   }, {
     icon: 177,
-    stats: [['lch', 10], ['psn', 5], ['slm', -30]],
-    tooltip: '10% LEECH, 5% POISON.\nCRITICAL and SHIELD Strikes\nleech 30% less.'
+    multis: [['mhp', 1.10]],
+    stats: [['hpr' 2]],
+    tooltip: '10% more HP\n2% REGEN'
   }, {
     icon: 178,
     multis: [['dmg', 0.85], ['arm', 0.85], ['mhp', 0.85]],
-    stats: [['exp', 1.15]],
+    stats: [['exp', 115]],
     tooltip: '15% more EXP\n15% less HP DEF and ATK'
   }, {
     icon: 179,
