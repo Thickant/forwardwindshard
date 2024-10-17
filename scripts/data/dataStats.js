@@ -44,7 +44,7 @@ define([''], function () {
     name: 'psn',
     real: 'POISON',
     percent: true,
-    tooltip: 'Percentage of HP taken\nas health per second\nYou can't be killed from Poison'
+    tooltip: 'Percentage of HP taken\nas health per second\nYou can not be killed from Poison'
   }, {
     name: 'slm',
     real: 'SLM',
