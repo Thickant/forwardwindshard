@@ -118,7 +118,7 @@ define([''], function () {
   }, {
     icon: 177,
     multis: [['mhp', 1.10]],
-    stats: [['hpr' 2]],
+    stats: [['hpr', 2]],
     tooltip: '10% more HP\n2% REGEN'
   }, {
     icon: 178,
