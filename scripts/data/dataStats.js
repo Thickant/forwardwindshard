@@ -98,7 +98,6 @@ define([''], function () {
     real: 'Armor Modifer for Enemies'
   }, {
     name: 'exp',
-    percent: true,
     real: 'multiplier for experience'
   }, {
     name: 'are',
