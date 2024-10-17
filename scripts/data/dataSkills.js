@@ -113,7 +113,7 @@ define([''], function () {
   }, // Page 3
   {
     icon: 176,
-    stats: [['bld', 5], ['psn', 3]],
+    stats: [['bld', 3], ['psn', 3]],
     tooltip: '5% BLEED\n3% POISON'
   }, {
     icon: 177,
