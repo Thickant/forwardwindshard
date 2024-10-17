@@ -38,8 +38,8 @@ define([''], function () {
     tooltip: '4% REGEN.\n5% less ATK',
   }, {
     icon: 39,
-    stats: [['cri', 25]],
-    tooltip: '25% CRIT.'
+    stats: [['cri', 25], ['bld', 3]],
+    tooltip: '25% CRIT.\n 3% BLEEXD'
   }, {
     icon: 40,
     multis: [['arm', 1.40], ['dmg', 0.85]],
@@ -91,8 +91,8 @@ define([''], function () {
   }, {
     icon: 51,
     stats: [['crm', 50]],
-    multis: [['dmg', 0.80]],
-    tooltip: '20% less ATK.\nCRITICAL Strikes deal 200%\ninstead of 150% damage.\nand apply BLEED'
+    multis: [['dmg', 0.80], ['bld', 2]],
+    tooltip: '20% less ATK.\nCRITICAL Strikes deal 200%\ninstead of 150% damage.\n2x BlEED'
   }, {
     icon: 52,
     stats: [['iml', -5]],
@@ -113,8 +113,8 @@ define([''], function () {
   }, // Page 3
   {
     icon: 176,
-    stats: [['frz', 1], ['arr', -2], ['fbm', 2.5]],
-    tooltip: '-2 ARROWS.\nGrants an additional FREEZE Spell.\nFrozen enemies take 2.5x\ndamage from BURN.'
+    stats: [['bld', 5],
+    tooltip: '+5% BLEED'
   }, {
     icon: 177,
     stats: [['lch', 10], ['psn', 5], ['slm', -30]],
