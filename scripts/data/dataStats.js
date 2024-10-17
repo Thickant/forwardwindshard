@@ -92,10 +92,13 @@ define([''], function () {
     real: 'Max Health Modifer for Enemies'
   }, {
     name: 'dmgMod',
-    real: 'damage Modifer for Enemies'
+    real: 'Damage Modifer for Enemies'
   }, {
     name: 'armMod',
     real: 'Armor Modifer for Enemies'
+  }, {
+    name: 'exp',
+    real: 'multiplier for experience'
   }, {
     name: 'are',
     real: 'Arrows recovery FLAG: Regain arrows when using guard spell'
