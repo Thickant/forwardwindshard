@@ -122,6 +122,7 @@ define([''], function () {
   }, {
     icon: 178,
     multis: [['dmg', 0.85], ['arm', 0.85], ['mhp', 0.85]],
+    stats: [['exp' 1.15]],
     tooltip: '15% more EXP\n15% less HP DEF and ATK'
   }, {
     icon: 179,
