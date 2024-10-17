@@ -39,7 +39,7 @@ define([''], function () {
   }, {
     icon: 39,
     stats: [['cri', 25], ['bld', 3]],
-    tooltip: '25% CRIT.\n 3% BLEEXD'
+    tooltip: '25% CRIT.\n 3% BLEED'
   }, {
     icon: 40,
     multis: [['arm', 1.40], ['dmg', 0.85]],
