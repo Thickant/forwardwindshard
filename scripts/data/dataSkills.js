@@ -92,7 +92,7 @@ define([''], function () {
     icon: 51,
     stats: [['crm', 50]],
     multis: [['dmg', 0.80]],
-    tooltip: '20% less ATK.\nCRITICAL Strikes deal 200%\ninstead of 150% damage.'
+    tooltip: '20% less ATK.\nCRITICAL Strikes deal 200%\ninstead of 150% damage.\nand apply BLEED'
   }, {
     icon: 52,
     stats: [['iml', -5]],
