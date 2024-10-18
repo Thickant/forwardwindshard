@@ -150,8 +150,8 @@ define([''], function () {
   }, {
     icon: 184,
     stats: [['imlrate', 1]],
-    multis: [['mhp', 0.60]],
-    tooltip: 'Makes BURN tick 3x Faster\n 40% less HP'
+    multis: [['mhp', 0.50]],
+    tooltip: 'Makes BURN tick 3x Faster\n 50% less HP'
   }, {
     icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
