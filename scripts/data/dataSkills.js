@@ -155,7 +155,7 @@ define([''], function () {
   }, {
     icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
-    tooltip: 'Gain 50% sword range\ndoes not apply to SHIELD Strike'
+    tooltip: 'Gain 50% sword range does\nnot apply to SHIELD Strike'
   }, {
     icon: 186,
     stats: [['abs', 10]],
@@ -164,7 +164,7 @@ define([''], function () {
   }, {
     icon: 187,
     stats: [['mhpMod', 1.20], ['dmgMod', 0.9]],
-    tooltip: 'All Enemies\nGain 20% more health\nLose -10% damage'
+    tooltip: 'All Enemies\nGain 20% more health\nLose 10% damage'
   }];
   return skills;
 });
