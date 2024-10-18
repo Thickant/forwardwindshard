@@ -137,7 +137,7 @@ define([''], function () {
   }, {
     icon: 181,
     stats: [['are', 1], ['hnt', 1]],
-    tooltip: 'All spent ARROWS are recovered\nwhen you use GUARD Spell.\nDamage of ARROWS is calculated\non DEF instead of ATK, but at\n30% of the value.'
+    tooltip: 'Your HP stat becomes your ATK stat\nYour ATK stat becomes your DEF stat\nYour DEF stat becomes your HP stat'
   }, {
     icon: 182,
     stats: [['arf', 20]],
