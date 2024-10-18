@@ -106,7 +106,12 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         if (this.hp >= 0){
           this.updatePoison();
         }
-        this.updateImmolation();
+        if (this.imlrate == 1) {
+          this.updateImmolation();
+          this.updateImmolation();
+          this.updateImmolation();
+        } else {
+          this.updateImmolation();
       }
     }, {
       key: "updateAction",
