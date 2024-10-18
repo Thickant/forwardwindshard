@@ -155,7 +155,7 @@ define([''], function () {
   }, {
     icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
-    tooltip: 'Gain 50% sword range does\nnot apply to SHIELD Strike'
+    tooltip: 'Gain 50% sword range\ndoes not apply\nto SHIELD Strike'
   }, {
     icon: 186,
     stats: [['abs', 10]],
