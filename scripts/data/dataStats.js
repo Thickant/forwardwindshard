@@ -100,6 +100,9 @@ define([''], function () {
     name: 'exp',
     real: 'multiplier for experience'
   }, {
+    name: 'imlrate',
+    real: 'Burn Tick Speed'
+  }, {
     name: 'are',
     real: 'Arrows recovery FLAG: Regain arrows when using guard spell'
   }, // {name:'shp', real:'Starting HP Percentage'},
