@@ -107,11 +107,12 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
           this.updatePoison();
         }
         if (this.imlrate == 1) {
-          this.updateImmolation();
-          this.updateImmolation();
-          this.updateImmolation();
+          for (let i = 0; i < 3; i++) {
+            this.updateImmolation();
+          }
         } else {
           this.updateImmolation();
+        }
       }
     }, {
       key: "updateAction",
