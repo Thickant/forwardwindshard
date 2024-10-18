@@ -149,9 +149,9 @@ define([''], function () {
     tooltip: '20% less ATK.\nCRITICAL Strikes deal 200%\ninstead of 150% damage.'
   }, {
     icon: 184,
-    stats: [['iml', -5]],
-    multis: [['dmg', 1.05], ['arm', 1.05]],
-    tooltip: '-5% BURN.\n5% more ATK.\n5% more DEF.'
+    stats: [['imlrate', 1]],
+    multis: [['mhp', 0.60]],
+    tooltip: 'Makes BURN tick 3x Faster\n 40% less HP'
   }, {
     icon: 185,
     multis: [['mhp', 1.10], ['dmg', 1.04], ['arm', 1.08]],
