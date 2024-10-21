@@ -102,6 +102,9 @@ define([''], function () {
   }, {
     name: 'imlrate',
     real: 'Burn Tick Speed'
+   }, {
+    name: 'yinyang',
+    real: 'Yin Yang'
   }, {
     name: 'are',
     real: 'Arrows recovery FLAG: Regain arrows when using guard spell'
