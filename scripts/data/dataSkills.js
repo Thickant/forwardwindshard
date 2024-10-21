@@ -136,7 +136,7 @@ define([''], function () {
     tooltip: '1 ARROW.\n 5% less ATK'
   }, {
     icon: 181,
-    stats: [['are', 1], ['hnt', 1]],
+    stats: [['yinyang', 1]],
     tooltip: 'Your HP stat becomes your ATK stat\nYour ATK stat becomes your DEF stat\nYour DEF stat becomes your HP stat'
   }, {
     icon: 182,
