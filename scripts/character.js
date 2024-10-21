@@ -259,12 +259,6 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
       value: function activateRelic(index) {
         this.relicIndex = index;
         this.refreshStats();
-        if (this.yinyang == 1) {
-          let temp = this.dmg;  // Store original dmg in a temp variable
-          this.dmg = this.mhp;  // Set dmg to mhp
-          this.mhp = this.arm;  // Set mhp to arm
-          this.arm = temp;      // Set arm to the original dmg value
-        }
         game.world.refreshStage();
       }
     }, {
