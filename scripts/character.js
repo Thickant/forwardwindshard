@@ -284,12 +284,6 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         this.baseStats.dmg = 8;
         this.baseStats.arm = 6;
         this.baseStats.crm = 150; // Crit Multiplier
-        if (this.yinyang == 1) {
-          let temp = this.dmg;  // Store original dmg in a temp variable
-          this.dmg = this.arm;  // Set dmg to arm
-          this.mhp = this.dmg;  // Set mhp to dmg
-          this.arm = temp;      // Set arm to the original dmg value
-        }
         this.baseStats.slm = 100; // Special Leech Multiplier
       }
     }, {
