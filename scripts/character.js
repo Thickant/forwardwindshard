@@ -346,6 +346,12 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         _final.forEach(function (s) {
           return _this7[s.name] = s.value;
         });
+        if (game.character.yinyang == 1) {
+        let temp = this.dmg;  // Store original dmg in a temp variable
+        this.dmg = this.arm;  // Set dmg to arm
+        this.mhp = this.dmg;  // Set mhp to dmg
+        this.arm = temp;      // Set arm to the original dmg value
+        }
       }
     }, {
       key: "equipStats",
