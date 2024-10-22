@@ -352,7 +352,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataSkills', 'dataRelics', 'dataActio
         let armtemp = this.arm;
         this.arm = dmgtemp;   
         this.dmg = mhptemp;
-        this.mhp = armtemp
+        this.mhp = armtemp;
         }
       }
     }, {
